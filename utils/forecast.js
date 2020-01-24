@@ -35,7 +35,7 @@ const forecast = (long, lat, callback) => {
                 body.daily.data[0].summary +
                 ' It is currently ' +
                 body.currently.temperature +
-                ' degrees out. There is a ' +
+                ' degrees F out. There is a ' +
                 body.currently.precipProbability +
                 '% chance of rain.')
         }
